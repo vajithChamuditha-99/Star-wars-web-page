@@ -1,0 +1,64 @@
+.head{
+	background-color: #2ce4f5;
+}
+#basket{
+	position: absolute;
+	right: 20px;
+	top: 40px;
+}
+#search{
+	position: absolute;
+	top: 40px;
+	left: 400px;
+}
+.row{
+	background-color: rgba(255,255,255,0.5);
+	border-bottom: 2px solid pink;
+}
+.part1{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background-color: #19fff7;
+	max-height: 600px;
+	position: relative;
+}
+.part2{
+	float: center;
+	max-height: 600px;
+	padding: 10px;
+	position: relative;
+}
+.part3{
+	float: right;
+	width: 8%;
+	background-color: #ffbe19;
+	padding: 10px;
+	min-height: 250px;
+	position: relative;
+	
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+*{
+	box-sizing: border-box;
+}
+.foot{
+	border: solid #d92585 4px;
+	text-align: center;
+	background-color: #d92585;
+}
+body{
+	background-image: url("images/Star-Wars-BG2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+}
+h1{
+	color: #d1900f;
+}
